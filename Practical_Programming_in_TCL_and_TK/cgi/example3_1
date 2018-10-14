@@ -1,0 +1,7 @@
+#!/usr/bin/tclsh
+
+puts "Content-Type: text/html"
+puts ""
+puts "<TITLE>The Current Time</TITLE>"
+puts "The time is <B>[clock format [clock seconds]]</B>"
+
